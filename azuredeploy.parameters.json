@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmName": {
+      "value": "VS2017-02"
+    },
+    "osType": {
+      "value": "Windows"
+    },
+    "osDiskVhdUri": {
+      "value": "https://marcplayvic.blob.core.windows.net/temp/abcd.vhd"
+    },
+    "vmSize": {
+      "value": "Standard_F4s"
+    },
+    "existingVirtualNetworkName": {
+      "value": "VS2017-vnet"
+    },
+    "existingVirtualNetworkResourceGroup": {
+      "value": "VS2017"
+    },
+    "subnetName": {
+      "value": "default"
+    },
+    "dnsNameForPublicIP": {
+      "value": "vs20170280"
+    }
+  }
+}
